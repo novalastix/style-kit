@@ -1,6 +1,9 @@
 # style-kit
 
-## Colors
+|PREVIEW|COLOR NAME|HEX CODE|
+|---|---|---|
+|![black](./png/colors/black.png)|HEX BLACK|#0D0D0D|
+
 ![Singularity #0d0d0d](./svg/colors/singularity_color.svg)
 ![Eclipse #1a1a1a](./svg/colors/eclipse_color.svg)
 ![Alloy #e5e5e5](./svg/colors/alloy_color.svg)
