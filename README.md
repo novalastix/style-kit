@@ -18,4 +18,8 @@
 
 ## Icons
 
+|AEON<br/>![aeon](./png/icons/aeon.png)|![aeon](./png/icons/aeon.png)|
+|:---:|:---:|
+|![aeon](./png/icons/aeon.png)|![aeon](./png/icons/aeon.png)|
+
 ## Fonts
