@@ -18,8 +18,8 @@
 
 ## Icons
 
-|AEON<br/>![aeon](./png/icons/aeon.png)|![aeon](./png/icons/aeon.png)|
-|:---:|:---:|
-|![aeon](./png/icons/aeon.png)|![aeon](./png/icons/aeon.png)|
+| | | |
+|:---:|:---:|:---:|
+|**AEON**<br/>![aeon](./png/icon/aeon200.png)|**HORIZON**<br/>![horizon](./png/icon/horizon200.png)|**SINGULARITY**<br/>![horizon](./png/icon/singularity200.png)|
 
 ## Fonts
