@@ -18,8 +18,8 @@
 
 ## Icons
 
-| | | |
+|           |           |           |
 |:---:|:---:|:---:|
-|**AEON**<br/>![aeon](./png/icon/aeon/aeon_preview_250px.png)|**HORIZON**<br/>![horizon](./png/icon/horizon/horizon_preview_250px.png)|**SINGULARITY**<br/>![horizon](./png/icon/singularity/singularity_preview_250px.png)|
+|**AEON**<br/>![aeon](./png/icon/aeon/aeon_preview_250px.png)|**HORIZON**<br/>![horizon](./png/icon/horizon/horizon_preview_250px.png)|**SINGULARITY**<br/>![singularity](./png/icon/singularity/singularity_preview_250px.png)|
 
 ## Fonts
