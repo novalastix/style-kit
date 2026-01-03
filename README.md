@@ -11,6 +11,7 @@
 |![orange](./png/colors/orange.png)|Automation|#F3430A|
 |![yellow](./png/colors/yellow.png)|Hazard|#F3D40A|
 |![green](./png/colors/green.png)|Experiment|#16D93D|
+|![jade](./png/colors/jade.png)|Radar|#009970|
 |![teal](./png/colors/teal.png)|Emergency|#2EDDD3|
 |![blue](./png/colors/blue.png)|Interlinked|#1F85EF|
 |![purple](./png/colors/purple.png)|Void|#5D14DF|
@@ -21,5 +22,6 @@
 |           |           |           |
 |:---:|:---:|:---:|
 |**AEON**<br/>![aeon](./png/icon/aeon/aeon_preview_250px.png)|**HORIZON**<br/>![horizon](./png/icon/horizon/horizon_preview_250px.png)|**SINGULARITY**<br/>![singularity](./png/icon/singularity/singularity_preview_250px.png)|
+|**MAGPIE**<br/>![magpie](./png/icon/magpie/magpie_preview_250px.png)|
 
 ## Fonts
