@@ -1,0 +1,139 @@
+/* Generic styles for all Toolbelt applications */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+:root
+{
+    --main-bg: #E5E5E5;
+}
+
+body
+{
+  background-color: var(--main-bg);
+}
+
+main
+{
+  max-width: 8.5in;
+  margin: auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column; 
+}
+
+header
+{
+  font-family: "Noto Sans Mono", monospace;
+  color: #1A1A1A;
+  font-size: 18px;
+  line-height: 2em;
+  margin: 0.25em 0;
+  padding: 0;
+}
+
+.left
+{
+  float: left;
+  overflow: hidden;
+}
+
+.right
+{
+  float: right;
+  width: calc(34.8 * 4);
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  stroke: #1A1A1A;
+  stroke-width: 1em;
+}
+
+a svg, a img
+{
+  vertical-align: middle;
+}
+
+
+textarea
+{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #F2F2F2;
+  font-family: "Noto Sans Mono", monospace;
+  font: 16px;
+  color: #1A1A1A;
+  border-color: #1A1A1A;
+  margin: 0;
+  resize: none;
+}
+
+textarea:focus
+{
+  outline: none;
+}
+
+#markdown
+{
+  display: none;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0.5em;
+  border: 2px solid #1A1A1A;
+  overflow-y: scroll;
+  
+  font-family: "Noto Sans Mono", monospace;
+  font: 16px;
+  color: #1A1A1A;
+  margin: 0;
+}
+
+blockquote
+{
+  border-left: 2px solid #1A1A1A;
+  padding-left: 0.5em;
+}
+
+table
+{
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+th,td
+{ 
+  border: 2px solid;
+  padding: 0.5em;
+}
+
+img
+{
+max-width: 100%;
+}
+
+
+@media print{
+  body{
+    visibility: hidden
+  }
+  textarea,#markdown{
+    overflow: visible;
+    visibility: visible;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    color: black;
+  }
+}
+
