@@ -22,6 +22,6 @@
 |           |           |           |
 |:---:|:---:|:---:|
 |**AEON**<br/>![aeon](./png/icon/aeon/aeon_preview_250px.png)|**HORIZON**<br/>![horizon](./png/icon/horizon/horizon_preview_250px.png)|**SINGULARITY**<br/>![singularity](./png/icon/singularity/singularity_preview_250px.png)|
-|**MAGPIE**<br/>![magpie](./png/icon/magpie/magpie_preview_250px.png)|
+|**MAGPIE**<br/>![magpie](./png/icon/magpie/magpie_preview_250px.png)|**MATRIX**<br/>![matrix](./png/icon/matrix/matrix_preview_250px.png)|
 
 ## Fonts
