@@ -6,7 +6,7 @@
 |![black](./png/colors/black.png)|Hexagon|#0D0D0D|
 |![dark_gray](./png/colors/dark_gray.png)|Basalt|#1A1A1A|
 |![light_gray](./png/colors/light_gray.png)|Alloy|#E5E5E5|
-|![white](./png/colors/white.png)|Polymer|#F2F2F2|
+|![white](./png/colors/off_white.png)|Polymer|#F9F8EB|
 |![red](./png/colors/red.png)|Replicant|#D91C0B|
 |![orange](./png/colors/orange.png)|Automation|#F3430A|
 |![yellow](./png/colors/yellow.png)|Hazard|#F3D40A|
