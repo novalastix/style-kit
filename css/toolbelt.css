@@ -4,31 +4,82 @@
 
 :root
 {
-    --main-bg: #F9F8EB;
+    --paper: #F9F8EB;
+    --block: #E2E1D6;
+    --ink: #1A1A1A;
+    --accent: #7D7C76;
 }
 
 body
 {
-  background-color: var(--main-bg);
+  margin: 0;
+
+  background-color: var(--paper);
+  color: var(--ink);
+
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 18px;
 }
+
+.page{max-width: 8.5in;}
 
 main
 {
-  max-width: 8.5in;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 1em;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 header
 {
-  font-family: "Noto Sans Mono", monospace;
-  color: #1A1A1A;
-  font-size: 18px;
-  line-height: 2em;
-  margin: 0.25em 0;
-  padding: 0;
+  border-bottom: 2px solid var(--accent);
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+header *
+{
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  margin: 0;
+}
+
+h6{ font-size: 0.8em;}
+h5{ font-size: 1.0em;}
+h4{ font-size: 1.2em;}
+h3{ font-size: 1.4em;}
+h2{ font-size: 1.6em;}
+h1{ font-size: 1.8em;}
+
+strong, em, del, mark, code, u
+{
+  font-size: 1em;
+}
+
+mark
+{
+  padding: 2px;
+  border-radius: 5px;
+}
+
+code
+{
+  background-color: var(--block);
+
+  padding: 3px 5px;
+  border-radius: 5px;
+
+  box-shadow: 
+    inset -1px -1px 0 rgba(255, 255, 255, 0.7),
+    inset  1px  1px 0 rgba(0, 0, 0, 0.15);
+}
+
+pre code
+{
+  padding: 1em;
 }
 
 .left
