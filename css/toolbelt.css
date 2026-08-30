@@ -197,20 +197,29 @@ hr
 }
 
 
-@media print{
-  body{
-    visibility: hidden
+@media print
+{
+  header,footer
+  {
+    display: none;
   }
-  textarea,#markdown{
+  main
+  {
     overflow: visible;
-    visibility: visible;
     border: none;
     position: absolute;
     top: 0;
     left: 0;
-
     background-color: white;
     color: black;
+  }
+  code
+  {
+    border: 1px solid black;
+  }
+  a
+  {
+    text-decoration: underline;
   }
 }
 
