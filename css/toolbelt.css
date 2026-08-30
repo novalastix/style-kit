@@ -57,6 +57,11 @@ h3{ font-size: 1.4em;}
 h2{ font-size: 1.6em;}
 h1{ font-size: 1.8em;}
 
+p
+{
+  text-indent: 4ch;
+}
+
 strong, em, del, mark, code, u
 {
   font-size: 1em;
