@@ -1,6 +1,5 @@
 /* Generic styles for all Toolbelt applications */
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Lexend:wght@100..900');
 
 :root
 {
@@ -20,7 +19,7 @@ body
   background-color: var(--paper);
   color: var(--ink);
 
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Lexend", sans-serif;
   font-size: 18px;
 }
 
@@ -60,6 +59,7 @@ h1{ font-size: 1.8em;}
 p
 {
   text-indent: 4ch;
+  line-height: 2em;
 }
 
 strong, em, del, mark, code, u
@@ -78,12 +78,16 @@ code
 {
   background-color: var(--block);
 
-  padding: 3px 5px;
+  padding: 0px 0.5em;
   border-radius: 5px;
+  display: inline-block;
+  text-indent: 0;
 
   box-shadow: 
     inset -1px -1px 0 rgba(255, 255, 255, 0.7),
     inset  1px  1px 0 rgba(0, 0, 0, 0.15);
+
+  font-family: 'Google Sans Code', monospace;
 }
 
 pre code
@@ -93,15 +97,6 @@ pre code
 }
 
 ul,ol{margin: 0.5em;}
-
-ol
-{
-  padding-left: 2.5em;
-}
-ul
-{
-  padding-left: 1.7em;
-}
 
 a
 {
@@ -144,6 +139,7 @@ blockquote
 {
   border-left: 2px solid var(--ink);
   padding-left: 0.5em;
+  text-indent: 1em;
 }
 
 table
