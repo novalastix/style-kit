@@ -156,8 +156,14 @@ th,td
   border: 2px solid;
   padding: 0.5em;
 }
-tr:nth-of-type(even){
+table.alternating tr:nth-of-type(even){
   background-color: var(--block);
+}
+table td a
+{
+  display: block;
+  margin: -0.5em;
+  padding: 0.5em;
 }
 
 img
