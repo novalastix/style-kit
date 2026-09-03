@@ -90,6 +90,11 @@ code
   font-family: 'Google Sans Code', monospace;
 }
 
+pre
+{
+  overflow-x: auto;
+}
+
 pre code
 {
   padding: 1em;
